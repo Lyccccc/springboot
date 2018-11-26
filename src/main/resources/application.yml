@@ -5,7 +5,7 @@ spring:
       prefix: /WEB-INF/jsp/
       suffix: .jsp
   datasource:
-    url: jdbc:mysql://localhost:3306/springboot?charactorEncoding=utf8
+    url: jdbc:mysql://localhost:3306/springboot?charactorEncoding=utf8&serverTimezone=UTC&characterEncoding=utf-8
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: 123456

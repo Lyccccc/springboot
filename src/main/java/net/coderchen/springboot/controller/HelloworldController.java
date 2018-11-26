@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @author coderchen
  * 2018/11/21 21:47
+ * 测试helloworld
  */
 @RestController
 @RequestMapping("/hello")

@@ -5,7 +5,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  * @author coderchen
- * 2018/11/21 22:00
+ * 2018/11/21 22:00\
+ * 测试jsp功能
  */
 @Controller
 public class IndexController {
