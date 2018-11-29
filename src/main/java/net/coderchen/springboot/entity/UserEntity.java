@@ -25,6 +25,9 @@ public class UserEntity {
     @Column(name = "t_address")
     private String address;
 
+    @Column(name = "t_pwd")
+    private String pwd;
+
     public int getId() {
         return id;
     }
@@ -57,6 +60,14 @@ public class UserEntity {
         this.address = address;
     }
 
+    public String getPwd() {
+        return pwd;
+    }
+
+    public void setPwd(String pwd) {
+        this.pwd = pwd;
+    }
+
     @Override
     public String toString() {
         return "UserEntity{" +
@@ -64,6 +75,7 @@ public class UserEntity {
                 ", name='" + name + '\'' +
                 ", age=" + age +
                 ", address='" + address + '\'' +
+                ", pwd='" + pwd + '\'' +
                 '}';
     }
 }
